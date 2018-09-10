@@ -1,0 +1,28 @@
+.container {
+	position: relative;
+	height: 230px;
+	width: 100%; 
+} 
+	
+.background {
+background-image:url("https://i.ytimg.com/vi/civ5UEA9oLw/maxresdefault.jpg");
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+filter: blur(20px);
+z-index:-1;
+	background-size: 2500px;
+}
+
+.image {
+	background-image: url("https://i.ytimg.com/vi/civ5UEA9oLw/maxresdefault.jpg");
+	background-size: 400px;
+	height: 220px;
+	width: 400px;
+	border-radius: 4px;
+	border: 2px solid white;
+	box-shadow: 0px 0px 60px 0 #000000;
+	margin: 0 auto;
+}
